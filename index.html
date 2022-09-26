@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health life</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <section id="cabecalho">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 conteudo-cabecalho">
+              <h1 class="titulo-cabecalho">HEALTHY WAY</h1>
+              <p class="texto-cabecalho">viva bem, viva saúdavel</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="banner-cabecalho">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 banner">
+              <img
+                src="bdc33c90-47fa-0137-02dc-6231c35b6685--minified.jpg"
+                alt="banner"
+                class="imagem-cabecalho"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section id="texto inicial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="titulo">Como saber se estou saudavel?</h2>
+            <div class="texto">
+              <p>
+                Existem varios fatores para determinar se uma pessoa é saúdavel
+                ou não, um deles é o IMC(indice de massa corpórea), caso tenha
+                curiosidade de saber o seu temos uma calculadora logo abaixo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabela-IMC">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tabela">
+              <img src="tabela-IMC.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="imc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 espacos">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">
+                Massa é:</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+                placeholder="Exemplo: 70Kg"
+                id="peso"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Altura é:</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+                placeholder="Exemplo: 1.70m"
+                id="altura"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >seu IMC:</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+                id="valor"
+              />
+            </div>
+
+            <button class="botao" onclick="inicia()">Calcular</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dicas">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 dicas-conteudo">
+            <p id="dicas-text"></p>
+            <div class="botoes-grup">
+              <button class="botao-">Academia</button>
+              <button class="botao-">Alimentação</button>
+              <button class="botao-">Esportes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
